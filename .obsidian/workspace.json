@@ -112,9 +112,18 @@
               "icon": "zhihu-icon",
               "title": "Zhihu slides"
             }
+          },
+          {
+            "id": "dbee4829304dc259",
+            "type": "leaf",
+            "state": {
+              "type": "zhihu-slides-view",
+              "state": {},
+              "icon": "zhihu-icon",
+              "title": "Zhihu slides"
+            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -221,8 +230,9 @@
       "zhihu:Open Zhihu side view": false
     }
   },
-  "active": "8235ce71a177a24e",
+  "active": "f7e8d9caa552bf80",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2025-08-19 10.23.40.excalidraw.md",
     "2025-08-19.md",
     "欢迎.md",
     "未命名 2.base",
