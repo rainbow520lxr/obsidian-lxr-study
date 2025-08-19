@@ -4,22 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "627f99197284805a",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "f42eead3c1258cdc",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
-            }
-          }
-        ]
-      },
-      {
         "id": "91a6069a1029fc02",
         "type": "tabs",
         "children": [
@@ -27,10 +11,14 @@
             "id": "93bc16fc8eeaa6b1",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "type": "markdown",
+              "state": {
+                "file": "欢迎.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "欢迎"
             }
           }
         ]
@@ -190,11 +178,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "43cd709599585fae",
+  "active": "93bc16fc8eeaa6b1",
   "lastOpenFiles": [
-    "未命名 1.base",
-    "未命名.canvas",
     "未命名.base",
+    "未命名.canvas",
+    "未命名 1.base",
     "欢迎.md"
   ]
 }
