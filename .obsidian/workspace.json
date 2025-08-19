@@ -119,16 +119,85 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "未命名 1.md",
+                "file": "2025-08-19.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名 1"
+              "title": "2025-08-19"
+            }
+          },
+          {
+            "id": "af12e8c15756a7e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "欢迎.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "欢迎"
+            }
+          },
+          {
+            "id": "867594f5431d7b63",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "未命名.base",
+                "viewName": "表格"
+              },
+              "icon": "lucide-table",
+              "title": "未命名"
+            }
+          },
+          {
+            "id": "838c9066aa2ca726",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "未命名.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "未命名"
+            }
+          },
+          {
+            "id": "ef9208869f259183",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "欢迎.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "欢迎"
+            }
+          },
+          {
+            "id": "5a88732b24bd62ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "类加载器.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "类加载器"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -151,7 +220,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "文件列表"
+              "title": "Files"
             }
           },
           {
@@ -187,8 +256,8 @@
             "state": {
               "type": "zhihu-slides-view",
               "state": {},
-              "icon": "zhihu-icon",
-              "title": "Zhihu slides"
+              "icon": "lucide-ghost",
+              "title": "zhihu-slides-view"
             }
           },
           {
@@ -197,8 +266,8 @@
             "state": {
               "type": "zhihu-slides-view",
               "state": {},
-              "icon": "zhihu-icon",
-              "title": "Zhihu slides"
+              "icon": "lucide-ghost",
+              "title": "zhihu-slides-view"
             }
           }
         ]
@@ -295,32 +364,37 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "bases:创建新数据库": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "obsidian-importer:Open Importer": false,
       "zhihu:Open Zhihu side view": false
     }
   },
-  "active": "114d9465ee5d0bca",
+  "active": "5a88732b24bd62ad",
   "lastOpenFiles": [
-    "未命名 3.canvas",
+    "类加载器.md",
+    "欢迎.md",
     "未命名 1.md",
     "未命名.md",
+    "未命名.base",
+    "2025-08-19.md",
+    "K8S",
+    "Spring系列",
+    "操作系统",
+    "大模型",
+    "未命名 3.canvas",
     "未命名 1.base",
     "未命名.canvas",
     "未命名 2.canvas",
     "Untitled.md",
     "未命名 1.canvas",
-    "未命名.base",
-    "欢迎.md",
-    "2025-08-19.md",
     "Excalidraw/Drawing 2025-08-19 10.23.40.excalidraw.md",
     "未命名 2.base",
     "Excalidraw/Drawing 2025-08-19 10.05.41.excalidraw.md",
