@@ -119,7 +119,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/类加载器.md",
+                "file": "技术笔记/JAVA/类加载器.md",
                 "mode": "source",
                 "source": false
               },
@@ -267,7 +267,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA/类加载器.md",
+                "file": "技术笔记/JAVA/类加载器.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -308,8 +308,11 @@
       "zhihu:Open Zhihu side view": false
     }
   },
-  "active": "43cd709599585fae",
+  "active": "f7e8d9caa552bf80",
   "lastOpenFiles": [
+    "技术笔记",
+    "大模型/Untitled",
+    "技术笔记/大模型/多模态",
     "2025-08-19.md",
     "欢迎.md",
     "未命名.base",
@@ -317,20 +320,18 @@
     "未命名.md",
     "未命名 2.base",
     "未命名 3.canvas",
-    "JAVA/类加载器.md",
-    "JAVA",
-    "K8S",
-    "Spring系列",
-    "操作系统",
-    "大模型",
+    "技术笔记/JAVA/类加载器.md",
+    "技术笔记/JAVA",
+    "技术笔记/K8S",
+    "技术笔记/Spring系列",
+    "技术笔记/操作系统",
+    "技术笔记/大模型",
     "未命名 1.base",
     "未命名.canvas",
     "未命名 2.canvas",
     "Untitled.md",
     "未命名 1.canvas",
     "Excalidraw/Drawing 2025-08-19 10.23.40.excalidraw.md",
-    "Excalidraw/Drawing 2025-08-19 10.05.41.excalidraw.md",
-    "Excalidraw",
-    "未命名"
+    "Excalidraw/Drawing 2025-08-19 10.05.41.excalidraw.md"
   ]
 }
