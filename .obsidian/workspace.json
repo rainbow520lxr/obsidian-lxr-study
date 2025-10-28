@@ -116,12 +116,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "技术笔记/大模型/多模态/LATEX.md",
+                "file": "技术笔记/机器学习/基础知识点.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LATEX"
+              "title": "基础知识点"
             }
           }
         ],
@@ -305,11 +305,12 @@
       "zhihu:Open Zhihu side view": false
     }
   },
-  "active": "f7e8d9caa552bf80",
+  "active": "d4b09bc1201b440f",
   "lastOpenFiles": [
+    "技术笔记/大模型/多模态/LATEX.md",
+    "技术笔记/机器学习/基础知识点.md",
     "技术笔记/机器学习",
     "技术笔记/JAVA/类加载器.md",
-    "技术笔记/大模型/多模态/LATEX.md",
     "Excalidraw/Drawing 2025-08-19 10.05.41.excalidraw.md",
     "技术笔记",
     "大模型/Untitled",
@@ -325,7 +326,6 @@
     "技术笔记/K8S",
     "技术笔记/Spring系列",
     "技术笔记/操作系统",
-    "技术笔记/大模型",
     "未命名.canvas",
     "未命名 2.canvas",
     "Untitled.md",
