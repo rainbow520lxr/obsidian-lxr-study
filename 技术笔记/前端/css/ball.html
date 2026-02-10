@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset=utf-8>
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+  <title>为了生活</title>
+
+  <style type="text/css">
+    * {
+      margin: 0;
+
+      padding: 0;
+
+    }
+
+    #lol {
+      margin: 0rem auto;
+
+      top: 2.666667rem;
+
+      width: 2.133333rem;
+
+      height: 2.133333rem;
+
+      background-color: red;
+
+      border-radius: 1.066667rem;
+
+      position: absolute;
+
+      left: 4.266667rem;
+
+      animation: down 1.5s infinite alternate;
+
+    }
+
+    @keyframes down {
+      95% {
+        width: .4rem;
+
+        height: .4rem;
+
+        border-radius: .2rem;
+        /*保证div始终是个圆形*/
+
+        top: 8rem;
+
+        left: 5.133333rem;
+        /*保证小球始终水平居中*/
+
+        background: blue;
+
+      }
+
+    }
+
+    #frame {
+      width: 10.666667rem;
+
+      height: 8.4rem;
+
+      margin: 2.666667rem auto;
+
+      border: .026667rem red solid;
+
+      position: relative;
+
+    }
+
+    #head {
+      width: 10.666667rem;
+
+      height: 2.666667rem;
+
+      text-align: center;
+
+      font-size: 1.066667rem;
+
+      font-weight: bold;
+
+      line-height: 2.666667rem;
+
+      background-image: -webkit-linear-gradient(90deg, #be1e1e, #be9b1e, #1ebe21, #1ebeb5, #1e24be, #ba1ebe, #be1e1e);
+
+      /*前面文章有提到*/
+
+      -webkit-background-clip: text;
+      /*剪切背景颜色，只在文字上显示*/
+
+      -webkit-text-fill-color: transparent;
+      /*文字填充为透明色*/
+
+      background-size: 100% 700%;
+
+      /*前面文章有提到*/
+
+      animation: bc 6s infinite;
+
+    }
+
+    @keyframes bc {
+      to {
+        background-position: 100% 100%;
+
+        /*前面文章有提到*/
+
+      }
+
+    }
+  </style>
+
+  <script type="text/javascript">
+
+  </script>
+
+</head>
+ <body>
+
+  <div id="frame">
+
+    <div id="head">Animatiom</div>
+
+    <div id="lol"></div>
+
+  </div>
+
+</body>
+
+</html>

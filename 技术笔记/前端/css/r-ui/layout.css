@@ -1,0 +1,36 @@
+.r-col {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  -webkit-justify-content: flex-start;
+}
+
+.r-row {
+  display: flex;  
+  display: -webkit-flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  -webkit-justify-content: flex-start;
+  align-items: center;
+}
+
+.r-eq>.r-col {
+  margin-left: 50px;
+  flex: 1;
+}
+
+.r-eq>.r-col:first-child {
+  margin-left: 0;
+  flex: 1;
+}
+
+.r-eq>.r-row {
+  margin-top: 20px;
+  flex: 1;
+}
+
+.r-eq>.r-row:first-child {
+  margin-top: 0;
+  flex: 1;
+}

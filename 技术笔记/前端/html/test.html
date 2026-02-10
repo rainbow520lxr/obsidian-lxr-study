@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./syncscroll.js"></script>
+  <title>测试</title>
+  <style>
+
+    .container {
+      width: 400px;
+      margin-top: 20px;
+      /* overflow: hidden; */
+      border: 1px solid green;
+    }
+
+    .wrapper {
+      display: flex;
+      /* width: max-content; */
+    }
+
+    .item {
+      height: 30px;
+      min-width: 30px;
+      border: 1px solid red;
+      padding-left: 10px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="wrapper">
+
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+
+    </div>
+
+  </div>
+
+
+
+  <div class="container">
+
+    <div class="wrapper">
+
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+
+    </div>
+
+  </div>
+
+  <h1>1.滚动器</h1>
+  <strong>div布局</strong>
+  <p>container wrapper item</p>
+  <p>container——固定容器,宽度固定,禁用滚动条及滚动事件,超出隐藏</p>
+  <p>wrapper——包裹内部容,宽度=i1+i2+...+in其宽度之和</p>
+  <strong>滚动方式</strong>
+  <p>滚动采用获取Touches对象,获取触摸坐标，使用translate对当前位置进行平移，从而模拟出滚动效果</p>
+  <h1>2.惯性模拟</h1>
+  <p>惯性的发生时机是在触摸滑动结束后的滑动延续</p>
+  <p>特点: 在触摸滑动结束瞬间的瞬时滑动速度上，做减速运动直到静止，由最后滑动结束所受的摩擦可以自定义，及加速度可以自定义，从而可以模拟出在不同粗糙平面滑动的效果</p>
+  <p>cur——当前坐标</p>
+  <p>&Delta;v——手指离开的速度: （最后两次触摸移动事件的触发的瞬时速度）&Delta;x/&Delta;t</p>
+  <p>&Delta;t——时间临界值: 单次事件循环所消耗的单位时间</p>
+  <p>&Delta;x——时间临界值: (最后连词触摸移动事件的瞬时位移）</p>
+  <p>a——力度套用公式计算得到加速度 a = ((v >> 31) * 2 + 1) * 0.5 （经验粗糙平面，速度大到一定程度时才会有所不同)可以调节)</p>
+  <p>计时器，迭代至v < 1: v = v - a; cur = cur + v (以当前速度一个单位时间的位移); 此时的单位时间右自己定义为20ms</p>
+  <h1>3.弹力模拟--两种情况</h1>
+  <p>触发时机——触摸滑动到容器边界以外</p>
+  <p>flex——弹力系数,自定义150</p>
+  <p>cur > 0时,右滑极限 cur = cur * flex / (cur + flex) 可见当拉动越远 cur -> flex 趋于一个flex定值，无法再拉动超出flex的距离</p>
+  <p>cur < 0时,左滑极限 cur = cur * flex / (cur - flex) - （wrapper宽 - 容器宽) 可见当拉动越远 cur -> flex 趋于一个flex定值，无法再拉动超出flex的距离</p>
+  <h1>4.回弹擦除</h1>
+  <p>offset——惯性滑动越界最大偏移量</p>
+  <p>触发时机：
+  <p>* 触摸滑动结束</p>
+  <p>* 惯性滑动超出滑动出容器最大偏移</p>
+  <p>* 惯性滑动未超出容器最大偏移，但速度已降至接近于0</p>
+  <p>左极限临界坐标——wrapper宽-容器宽</p>
+  <p>右极限临界坐标——0</p>
+  <p>对应以上三种情况，分别对应超出左右临界的情况进行反向滑动，从而实现反向擦除的效果</p>
+  <p>计时器, 迭代至｜cur-临界值｜< 1: cur = cur - (cur - 临界值) * 0.2, 按照该公式进行单位时间20ms, 0.2的比例进行距离衰减, 从而滑动到极限临界坐标 </p>
+  <h1>5.联动滑动</h1>
+  <p>在同一事件循环，同一次UI渲染中完成dom计算</p>
+  <p>此处只是监听触摸事件但禁用了默认的滚动行为，在事件中对多个滚动器进行相同的样式赋值，促使其在同一循环进行渲染，从而得到同步效果</p>
+</body>
+
+<script>
+
+  var control = new RScrollControl();
+  control.add("container");
+
+
+</script>
+</html>
