@@ -9,3 +9,11 @@
 ## Obsidian笔记美化指南
 **Time:** 2025-10-28 19:14
 **Summary:** 用户询问如何编写美观的Obsidian笔记。AI提供了多种格式化技巧，包括使用标题、列表、表格、代码块和视觉元素来增强结构。建议通过内部链接、标签组织内容，并利用主题和插件提升视觉效果。
+
+## Machine Learning Note Expansion
+**Time:** 2025-11-06 09:12
+**Summary:** The user refines their machine learning study notes by requesting detailed expansions on specific sections, including probability statistics, optimization theory, and gradient descent. The AI provides structured content with code examples and Markdown formatting to enhance clarity and depth. This results in a comprehensive knowledge base covering core ML concepts and algorithms.
+
+## Image Recognition Notes on Edge Detection Operators
+**Time:** 2025-11-06 10:52
+**Summary:** The user requested assistance in organizing and refining notes on image recognition, with a focus on edge detection operators like Laplacian, Sobel, and Robert. The AI provided detailed explanations, OpenCV code interfaces, and parameter guides for these operators. Key conclusions included comprehensive implementation details and optimization strategies for effective edge detection.
