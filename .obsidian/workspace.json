@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "bfa05025b1befafd",
+        "id": "fbbd59de928ea0c9",
         "type": "tabs",
         "children": [
           {
-            "id": "8cd9850c341c7a90",
+            "id": "3b69b0575e27c31d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "技术笔记/大模型/llm.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "llm"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
             }
           }
         ]
@@ -44,7 +40,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "文件列表"
             }
           },
           {
@@ -98,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252.5
+    "width": 286.5
   },
   "right": {
     "id": "e35fcdccc157bf60",
@@ -194,74 +190,76 @@
       }
     ],
     "direction": "horizontal",
-    "width": 636.5
+    "width": 271.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:创建新数据库": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-importer:Open Importer": false,
       "zhihu:Open Zhihu side view": false,
-      "copilot:Open Copilot Chat": false
+      "copilot:Open Copilot Chat": false,
+      "publish:发布更改": false,
+      "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "f7e8d9caa552bf80",
+  "active": "43cd709599585fae",
   "lastOpenFiles": [
-    "技术笔记/大模型/ms培训.md",
-    "技术笔记/大模型/llm.md",
-    "技术笔记/大模型/math.md",
-    "技术笔记/大模型/tochserve.md",
-    "技术笔记/大模型/prompt.md",
-    "技术笔记/容器化/docker/wsl.md",
-    "技术笔记/容器化/docker/rancher.md",
-    "技术笔记/容器化/docker/k8s框架.svg",
-    "技术笔记/容器化/docker/k8s-mysql.md",
-    "技术笔记/容器化/docker/k8s-issue.md",
-    "技术笔记/容器化/docker/k8s-etcd方案.md",
-    "技术笔记/容器化/docker/k8s.md",
-    "技术笔记/容器化/docker/docker-compose.md",
-    "技术笔记/容器化/docker/docker.md",
-    "技术笔记/容器化/docker/资源分类.svg",
-    "读书笔记/认知驱动——第四章.md",
-    "技术笔记/包管理器/gradle/plugin-markers.png",
-    "技术笔记/包管理器/gradle/ktolin.md",
-    "技术笔记/包管理器/gradle/task-dag-examples.png",
-    "技术笔记/包管理器/gradle/groovy.md",
-    "技术笔记/包管理器/gradle/gradle.md",
-    "技术笔记/包管理器/gradle",
-    "技术笔记/包管理器",
-    "技术笔记/前端/r-ui/package-lock.json",
-    "技术笔记/前端/r-ui/public/css/swiper.css",
-    "技术笔记/前端/r-ui/public/js/vue.js",
-    "技术笔记/前端/r-ui/public/css/normalize.css",
-    "技术笔记/前端/r-ui/public/js/bscroll.min.js",
-    "技术笔记/前端/r-ui/public/js/vue.min.js",
-    "技术笔记/前端/r-ui/public/js/swiper.js",
-    "技术笔记/前端/r-ui/public/js/flexible.js",
-    "技术笔记/前端/r-ui/README.md",
-    "技术笔记/前端/r-ui/vue-2-demo/src/assets/logo.png",
-    "技术笔记/前端/r-ui/vue-2-demo/README.md",
-    "技术笔记/前端/r-ui/vue-2-demo/node_modules/setprototypeof/README.md",
-    "技术笔记/前端/r-ui/vue-2-demo/node_modules/postcss-reduce-initial/README.md",
-    "技术笔记/前端/r-ui/vue-2-demo/node_modules/inflight/README.md",
-    "技术笔记/前端/r-ui/vue-2-demo/node_modules/isexe/README.md",
-    "技术笔记/前端/r-ui/vue-2-demo/node_modules/mime-db/README.md",
-    "技术笔记/前端/r-ui/vue-2-demo/node_modules/mime-db/HISTORY.md",
-    "技术笔记/前端/r-ui/vue-2-demo/node_modules/buffer/AUTHORS.md",
-    "技术笔记/前端/r-ui/vue-2-demo/node_modules/serve-index/public/icons/page_world.png",
-    "技术笔记/前端/r-ui/vue-2-demo/node_modules/serve-index/public/icons/page_word.png",
-    "技术笔记/前端/r-ui/vue-2-demo/node_modules/serve-index/public/icons/page_white_zip.png",
-    "技术笔记/前端/r-ui/vue-2-demo/node_modules/serve-index/public/icons/page_white_wrench.png",
-    "技术笔记/前端/r-ui/vue-2-demo/node_modules/serve-index/public/icons/page_white_world.png",
-    "未命名 3.canvas",
+    "Security.md",
+    "technical notes/java/Spring系列/spring基础/ioc认识之路.md",
+    "technical notes/ai/claude code技术分析/skills/01-usage-guide.md",
+    "technical notes/ai/claude code技术分析/skills/SkillTool 深度解析：Claude Code 的技能执行引擎.md",
+    "technical notes/ai/基础知识点.md",
+    "technical notes/ai/claude code技术分析/skills/02-implementation.md",
+    "technical notes/ai/claude code技术分析/skills/images/09-skill-lifecycle.png",
+    "technical notes/ai/claude code技术分析/skills/images/08-conditional-activation.png",
+    "technical notes/ai/claude code技术分析/skills/images/07-skill-execution.png",
+    "technical notes/ai/claude code技术分析/skills/images/06-skill-injection.png",
+    "technical notes/ai/claude code技术分析/skills/images/05-skill-loading.png",
+    "technical notes/ai/claude code技术分析/skills/images/04-skills-architecture.png",
+    "technical notes/ai/claude code技术分析/skills/images/03-skill-invocation.png",
+    "technical notes/ai/claude code技术分析/skills/images/02-skill-sources.png",
+    "technical notes/ai/claude code技术分析/skills/images/01-skills-overview.png",
+    "technical notes/ai/claude code技术分析/skills/images",
+    "technical notes/ai/claude code技术分析/reference/project-structure.md",
+    "technical notes/ai/claude code技术分析/reference/fixes.md",
+    "technical notes/ai/claude code技术分析/public/ads.txt",
+    "technical notes/ai/claude code技术分析/public/images/banner.jpg",
+    "technical notes/ai/claude code技术分析/public/images",
+    "technical notes/ai/claude code技术分析/public/CNAME",
+    "technical notes/ai/claude code技术分析/memory/index.md",
+    "technical notes/ai/claude code技术分析/memory/02-implementation.md",
+    "technical notes/ai/claude code技术分析/memory/images",
+    "technical notes/ai/claude code技术分析/memory/01-usage-guide.md",
+    "technical notes/ai/claude code技术分析/memory/03-autodream.md",
+    "technical notes/ai/claude code技术分析/guide/env-vars.md",
+    "technical notes/ai/claude code技术分析/guide/global-usage.md",
+    "technical notes/ai/claude code技术分析/guide/quick-start.md",
+    "technical notes/ai/claude code技术分析/guide/faq.md",
+    "technical notes/ai/claude code技术分析/guide/third-party-models.md",
+    "technical notes/ai/claude code技术分析/features/computer-use.md",
+    "technical notes/ai/claude code技术分析/features/computer-use-architecture.md",
+    "technical notes/ai/claude code技术分析/features/images",
+    "technical notes/ai/claude code技术分析/en/reference/project-structure.md",
+    "technical notes/ai/claude code技术分析/en/reference/fixes.md",
+    "technical notes/ai/claude code技术分析/en/reference",
+    "technical notes/ai/claude code技术分析/en/skills/images",
+    "technical notes/ai/claude code技术分析/en/skills/02-implementation.md",
+    "technical notes/ai/claude code技术分析/en/skills/01-usage-guide.md",
+    "technical notes/ai/claude code技术分析/en/skills",
+    "technical notes/ai/claude code技术分析/en/index.md",
+    "technical notes/ai/claude code技术分析/en/channel/index.md",
+    "technical notes/ai/claude code技术分析/en/channel/images",
+    "technical notes/ai/claude code技术分析/en/channel/01-channel-system.md",
     "未命名.canvas",
+    "未命名 3.canvas",
     "未命名 2.canvas",
     "未命名 1.canvas"
   ]

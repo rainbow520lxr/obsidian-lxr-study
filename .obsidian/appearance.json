@@ -1,4 +1,6 @@
 {
-  "cssTheme": "Blue Topaz",
-  "theme": "moonstone"
+  "cssTheme": "Things",
+  "theme": "moonstone",
+  "baseFontSize": 12,
+  "accentColor": "#6a6b95"
 }
